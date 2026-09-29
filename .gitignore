@@ -1,0 +1,15 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+.DS_Store
+.idea/
+.vscode/
+.streamlit/secrets.toml
+data/
+artifacts_retrained/
+product_artifacts/
+tmp_*/
+*.log
