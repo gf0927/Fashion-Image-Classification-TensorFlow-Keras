@@ -1,0 +1,87 @@
+{
+  "test_accuracy": 0.896,
+  "test_macro_f1": 0.8955051865137491,
+  "classification_report": {
+    "T-shirt/top": {
+      "precision": 0.8518896833503575,
+      "recall": 0.834,
+      "f1-score": 0.8428499242041435,
+      "support": 1000.0
+    },
+    "Trouser": {
+      "precision": 0.9908722109533469,
+      "recall": 0.977,
+      "f1-score": 0.9838872104733132,
+      "support": 1000.0
+    },
+    "Pullover": {
+      "precision": 0.861198738170347,
+      "recall": 0.819,
+      "f1-score": 0.8395694515633009,
+      "support": 1000.0
+    },
+    "Dress": {
+      "precision": 0.8683206106870229,
+      "recall": 0.91,
+      "f1-score": 0.888671875,
+      "support": 1000.0
+    },
+    "Coat": {
+      "precision": 0.8014440433212996,
+      "recall": 0.888,
+      "f1-score": 0.8425047438330171,
+      "support": 1000.0
+    },
+    "Sandal": {
+      "precision": 0.9565637065637066,
+      "recall": 0.991,
+      "f1-score": 0.9734774066797642,
+      "support": 1000.0
+    },
+    "Shirt": {
+      "precision": 0.7205567451820128,
+      "recall": 0.673,
+      "f1-score": 0.6959669079627715,
+      "support": 1000.0
+    },
+    "Sneaker": {
+      "precision": 0.9600409836065574,
+      "recall": 0.937,
+      "f1-score": 0.9483805668016194,
+      "support": 1000.0
+    },
+    "Bag": {
+      "precision": 0.9807692307692307,
+      "recall": 0.969,
+      "f1-score": 0.9748490945674044,
+      "support": 1000.0
+    },
+    "Ankle boot": {
+      "precision": 0.9678068410462777,
+      "recall": 0.962,
+      "f1-score": 0.9648946840521565,
+      "support": 1000.0
+    },
+    "accuracy": 0.896,
+    "macro avg": {
+      "precision": 0.8959462793650159,
+      "recall": 0.8960000000000001,
+      "f1-score": 0.8955051865137491,
+      "support": 10000.0
+    },
+    "weighted avg": {
+      "precision": 0.895946279365016,
+      "recall": 0.896,
+      "f1-score": 0.8955051865137491,
+      "support": 10000.0
+    }
+  },
+  "counts": {
+    "train": 51000,
+    "val": 9000,
+    "test": 10000
+  },
+  "seed": 42,
+  "tensorflow_version": "2.21.0",
+  "dataset": "fashion"
+}
