@@ -1,0 +1,18 @@
+{
+  "classes": [
+    "T-shirt/top",
+    "Trouser",
+    "Pullover",
+    "Dress",
+    "Coat",
+    "Sandal",
+    "Shirt",
+    "Sneaker",
+    "Bag",
+    "Ankle boot"
+  ],
+  "dataset": "fashion",
+  "image_size": 28,
+  "input_mode": "L",
+  "backbone": "small_cnn"
+}
